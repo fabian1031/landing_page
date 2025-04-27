@@ -1,8 +1,10 @@
-*Autor
-#Autor
-Fabian andres Beltran
-
-#Descripción
+# Autor
+Fabian Beltran
 
 
-#Tecnologias usadas# landing_page
+## Descripción
+
+
+### Tecnologias
+
+Html, CSS3, Java Script
