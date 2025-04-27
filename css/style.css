@@ -1,0 +1,124 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+
+
+.hero_image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/meditacion.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero_text {
+
+    color: white;
+}
+
+.site_nav {
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+.site_main {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: left;
+    border: 2px solid green;
+}
+
+.site_footer {
+    background-color: #89b2a2;
+    color: #fafad4;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer_columns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.footer_columns div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.footer_social {
+    margin-top: 10px;
+}
+
+.footer_author {
+    margin-top: 5px;
+}
+
+/* Cambiar color de enlaces */
+.site_footer a {
+    color: #fafad4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.site_footer a:hover {
+    color: #fb7968;
+    text-decoration: underline;
+}
+.site_footer h4:hover {
+    color: #fb7968; 
+    /* Cambia el color al pasar el cursor */
+    transition: color 0.3s ease;
+    text-decoration: underline;
+}
+
+/*
+.color1 { #fb7968 };
+.color2 { #f9c593 };
+.color3 { #fafad4 };
+.color4 { #b0d1b2 };
+.color5 { #89b2a2 };
+*/
